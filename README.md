@@ -1,5 +1,7 @@
 # Regarded — MiniMax H3 Sync Challenge
 
+https://www.youtube.com/watch?v=ckyflxCj90U
+
 > “Meet Riot. She's been abducted by aliens. I know, I know - it's not what she expected, either. But she swears this is how she remembers it.”
 
 I’m DMing a tabletop campaign set during a modern First Contact scenario, and I’d already been using H3 to make what are basically campaign cutscenes. The challenge deadline gave me an excuse to stop experimenting and actually finish one.
