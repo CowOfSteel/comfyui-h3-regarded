@@ -99,6 +99,4 @@ The last measured review master reported approximately:
 
 Those numbers are kept here as QC history, not presented as a fresh measurement of the final upload.
 
-But again, I am not remotely a native audio engineer or anything of the sort, so that could be just... wrong.
-
-OH! And since I forgot to mention elsewhere - all images were generated with OpenAI's Image 2.0.
+All images were generated with OpenAI's Image 2.0.
