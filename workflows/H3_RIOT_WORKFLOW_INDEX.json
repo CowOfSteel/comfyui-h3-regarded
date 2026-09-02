@@ -1,0 +1,317 @@
+{
+  "id": "riot-h3-workflow-index",
+  "revision": 0,
+  "last_node_id": 10,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "MarkdownNote",
+      "pos": [
+        0,
+        0
+      ],
+      "size": [
+        620,
+        520
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "START HERE \u2014 Regarded / H3 Sync Challenge",
+      "properties": {},
+      "widgets_values": [
+        "# Regarded \u2014 H3 Sync Challenge Workflow Index\n\nThis canvas is a **production map**, not a fake one-click render graph.\n\nThe exact runnable workflows are S01-S13 in `selected_shots/`.\n\nThe project intentionally stays close to ComfyUI's stock MiniMax H3 ref2va workflow and explores how far reference hierarchy, linked H3 video/audio, sampling changes, encoder variants, resolution, and prompt structure can carry a continuous narrative.\n\n**Final title:** Regarded  \n**Reported runtime:** ~87.47 s  \n**Final delivery target:** 1280\u00d7720 / 24 fps  \n**Core:** ComfyUI 0.33.0  \n**Frontend:** 1.49.6  \n**GPU:** RTX 3090 Ti 24 GB  \n**Sampler:** res_multistep  \n**Native generation:** H3 video + stereo audio"
+      ],
+      "widgets_values_named": {
+        "text": "# Regarded \u2014 H3 Sync Challenge Workflow Index\n\nThis canvas is a **production map**, not a fake one-click render graph.\n\nThe exact runnable workflows are S01-S13 in `selected_shots/`.\n\nThe project intentionally stays close to ComfyUI's stock MiniMax H3 ref2va workflow and explores how far reference hierarchy, linked H3 video/audio, sampling changes, encoder variants, resolution, and prompt structure can carry a continuous narrative.\n\n**Final title:** Regarded  \n**Reported runtime:** ~87.47 s  \n**Final delivery target:** 1280\u00d7720 / 24 fps  \n**Core:** ComfyUI 0.33.0  \n**Frontend:** 1.49.6  \n**GPU:** RTX 3090 Ti 24 GB  \n**Sampler:** res_multistep  \n**Native generation:** H3 video + stereo audio"
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 2,
+      "type": "MarkdownNote",
+      "pos": [
+        700,
+        0
+      ],
+      "size": [
+        560,
+        520
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "S01-S03 \u2014 Approach / Installation",
+      "properties": {},
+      "widgets_values": [
+        "## S01-S03 \u2014 Establish the physical world\n\n**S01** \u2014 14 s, 1 MP. Riot + environment refs. Native footsteps, rain, dialogue. Turbo setting 10.\n\n**S02** \u2014 10 s, 1 MP. Full 25-step, Turbo disabled. Orrery reveal across the crest; mud-to-stone footstep transition.\n\n**S03** \u2014 6.5 s, 1 MP. Prior H3 video becomes a visual continuity reference. Adds mechanism detail to enforce the two-moon Orrery geometry. Turbo setting 4 / full fallback 25.\n\nThis is where the workflow stops being only \u201creference image \u2192 new clip\u201d and starts treating a previous H3 shot as production state."
+      ],
+      "widgets_values_named": {
+        "text": "## S01-S03 \u2014 Establish the physical world\n\n**S01** \u2014 14 s, 1 MP. Riot + environment refs. Native footsteps, rain, dialogue. Turbo setting 10.\n\n**S02** \u2014 10 s, 1 MP. Full 25-step, Turbo disabled. Orrery reveal across the crest; mud-to-stone footstep transition.\n\n**S03** \u2014 6.5 s, 1 MP. Prior H3 video becomes a visual continuity reference. Adds mechanism detail to enforce the two-moon Orrery geometry. Turbo setting 4 / full fallback 25.\n\nThis is where the workflow stops being only \u201creference image \u2192 new clip\u201d and starts treating a previous H3 shot as production state."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 3,
+      "type": "MarkdownNote",
+      "pos": [
+        1320,
+        0
+      ],
+      "size": [
+        620,
+        560
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "S04-S07 \u2014 Quorum / Linked Audio",
+      "properties": {},
+      "widgets_values": [
+        "## S04-S07 \u2014 Encounter and audiovisual continuity\n\n**S04** \u2014 prior H3 video preserves Riot's position, wetness, screen direction, weather, and Orrery motion while the camera changes and reveals the Quorum.\n\n**S05** \u2014 introduces `firstskyinprogress.wav` as an H3 voice-timbre reference and carries previous H3 environmental audio.\n\n**S06** \u2014 keeps the established Highland/Orrery audio while generating the layered Quorum exchange. 9 s, 1 MP, Turbo 7.\n\n**S07** \u2014 7.5 s, 1 MP, Turbo 9. Carries the preceding \u201cWe are\u201d harmonic and environment into \u201cHeed\u201d and the skyward camera move.\n\nThis is the clearest linked-pass evidence in the sequence."
+      ],
+      "widgets_values_named": {
+        "text": "## S04-S07 \u2014 Encounter and audiovisual continuity\n\n**S04** \u2014 prior H3 video preserves Riot's position, wetness, screen direction, weather, and Orrery motion while the camera changes and reveals the Quorum.\n\n**S05** \u2014 introduces `firstskyinprogress.wav` as an H3 voice-timbre reference and carries previous H3 environmental audio.\n\n**S06** \u2014 keeps the established Highland/Orrery audio while generating the layered Quorum exchange. 9 s, 1 MP, Turbo 7.\n\n**S07** \u2014 7.5 s, 1 MP, Turbo 9. Carries the preceding \u201cWe are\u201d harmonic and environment into \u201cHeed\u201d and the skyward camera move.\n\nThis is the clearest linked-pass evidence in the sequence."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 4,
+      "type": "MarkdownNote",
+      "pos": [
+        2000,
+        0
+      ],
+      "size": [
+        620,
+        560
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "S08-S10 \u2014 Homeworld Reveal / Transition",
+      "properties": {},
+      "widgets_values": [
+        "## S08-S10 \u2014 Expand the reference stack\n\n**S08** \u2014 7 s, 1 MP, Turbo 11. Adds the planet reference while preserving prior H3 video/audio and Quorum voice identity.\n\n**S09** \u2014 7.5 s, 1 MP, Turbo 10 / full fallback 25. Continues from `shot5continue.mp4` with its H3 audio plus the voice reference.\n\n**S10** \u2014 4.5 s, 1 MP, W4A8 mixed text encoder, Turbo 8 / full fallback 25. Uses two prior video streams and both prior audio streams. Ends with an Orrery ring occluding the frame to hand off into the orbital RKV shot."
+      ],
+      "widgets_values_named": {
+        "text": "## S08-S10 \u2014 Expand the reference stack\n\n**S08** \u2014 7 s, 1 MP, Turbo 11. Adds the planet reference while preserving prior H3 video/audio and Quorum voice identity.\n\n**S09** \u2014 7.5 s, 1 MP, Turbo 10 / full fallback 25. Continues from `shot5continue.mp4` with its H3 audio plus the voice reference.\n\n**S10** \u2014 4.5 s, 1 MP, W4A8 mixed text encoder, Turbo 8 / full fallback 25. Uses two prior video streams and both prior audio streams. Ends with an Orrery ring occluding the frame to hand off into the orbital RKV shot."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 5,
+      "type": "MarkdownNote",
+      "pos": [
+        2680,
+        0
+      ],
+      "size": [
+        620,
+        600
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "S11-S12 \u2014 RKV / Damaged Planet",
+      "properties": {},
+      "widgets_values": [
+        "## S11-S12 \u2014 Impact sequence\n\n**S11** \u2014 5 s, **2 MP**, W4A8 mixed. Turbo 12 / full fallback 32. One authoritative pre-impact planet ref. Tiny intermittent RKV cue \u2192 hidden far-side upper-right impact \u2192 white-blue sensor saturation. Native telemetry/clipping/overload sound.\n\n**S12** \u2014 8 s, **2 MP**, NVFP4. Turbo 12 / full fallback 25. Pre-impact + post-impact planet refs + prior impact video **visual only**. The previous video's audio output is not wired into H3. New native audio is prompted as overload recovery, telemetry and signal failure.\n\nThis split was used to keep the impact and the damaged-state reveal individually controllable."
+      ],
+      "widgets_values_named": {
+        "text": "## S11-S12 \u2014 Impact sequence\n\n**S11** \u2014 5 s, **2 MP**, W4A8 mixed. Turbo 12 / full fallback 32. One authoritative pre-impact planet ref. Tiny intermittent RKV cue \u2192 hidden far-side upper-right impact \u2192 white-blue sensor saturation. Native telemetry/clipping/overload sound.\n\n**S12** \u2014 8 s, **2 MP**, NVFP4. Turbo 12 / full fallback 25. Pre-impact + post-impact planet refs + prior impact video **visual only**. The previous video's audio output is not wired into H3. New native audio is prompted as overload recovery, telemetry and signal failure.\n\nThis split was used to keep the impact and the damaged-state reveal individually controllable."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 6,
+      "type": "MarkdownNote",
+      "pos": [
+        3360,
+        0
+      ],
+      "size": [
+        620,
+        600
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "S13 \u2014 Aftermath / Closing Line",
+      "properties": {},
+      "widgets_values": [
+        "## S13 \u2014 Return to Riot\n\n8 s, 1 MP, W4A8 mixed, Turbo 6 / full fallback 25, `ref_image_size=max`.\n\nReferences:\n- Riot identity\n- authoritative henge position\n- Orrery identity\n- post-impact planet\n- preceding video as visual-only transition state\n- Quorum voice reference\n\nThe space audio is deliberately **not** inherited. H3 re-establishes ringing \u2192 Highland rain/wind/breathing \u2192 one Orrery click \u2192 off-screen Quorum whisper:\n\n**\u201cPray... that you have been regarded... in time.\u201d**"
+      ],
+      "widgets_values_named": {
+        "text": "## S13 \u2014 Return to Riot\n\n8 s, 1 MP, W4A8 mixed, Turbo 6 / full fallback 25, `ref_image_size=max`.\n\nReferences:\n- Riot identity\n- authoritative henge position\n- Orrery identity\n- post-impact planet\n- preceding video as visual-only transition state\n- Quorum voice reference\n\nThe space audio is deliberately **not** inherited. H3 re-establishes ringing \u2192 Highland rain/wind/breathing \u2192 one Orrery click \u2192 off-screen Quorum whisper:\n\n**\u201cPray... that you have been regarded... in time.\u201d**"
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 7,
+      "type": "MarkdownNote",
+      "pos": [
+        0,
+        660
+      ],
+      "size": [
+        900,
+        600
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "DEPENDENCIES / NAMING NOTE",
+      "properties": {},
+      "widgets_values": [
+        "## Dependencies\n\n**Diffusion:** `minimax_h3_ref2va_pruned_int8_convrot.safetensors`\n\n**Video VAE actually selected:** `minimax_h3_video_vae_int8_convrot.safetensors`\n\n**Audio VAE:** `minimax_h3_audio_vae_fp32.safetensors`\n\n**Text encoders used:** NVFP4 AWQ and W4A8 mixed\n\n**Turbo LoRA:** `minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors`, strength 1\n\n**Video/audio loaders:** Video Helper Suite (`VHS_LoadVideo`, `VHS_LoadAudioUpload`)\n\n### Naming gotcha\nSome working-template nodes are still titled **Lightning LoRA**. The actual file loaded is the MiniMax H3 Ref2V Turbo LoRA. The old node title is not a claim that a separate Lightning LoRA was used."
+      ],
+      "widgets_values_named": {
+        "text": "## Dependencies\n\n**Diffusion:** `minimax_h3_ref2va_pruned_int8_convrot.safetensors`\n\n**Video VAE actually selected:** `minimax_h3_video_vae_int8_convrot.safetensors`\n\n**Audio VAE:** `minimax_h3_audio_vae_fp32.safetensors`\n\n**Text encoders used:** NVFP4 AWQ and W4A8 mixed\n\n**Turbo LoRA:** `minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors`, strength 1\n\n**Video/audio loaders:** Video Helper Suite (`VHS_LoadVideo`, `VHS_LoadAudioUpload`)\n\n### Naming gotcha\nSome working-template nodes are still titled **Lightning LoRA**. The actual file loaded is the MiniMax H3 Ref2V Turbo LoRA. The old node title is not a claim that a separate Lightning LoRA was used."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 8,
+      "type": "MarkdownNote",
+      "pos": [
+        980,
+        660
+      ],
+      "size": [
+        900,
+        600
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "WHY THIS IS A MASTER INDEX, NOT A MEGA-GRAPH",
+      "properties": {},
+      "widgets_values": [
+        "## Why the exact workflows stay separate\n\nThese clips were generated as purpose-specific H3 passes, sometimes feeding prior output into the next pass.\n\nCopying thirteen entire graphs onto one canvas would make a huge document, but it would not make unrelated shots technically \u201clinked.\u201d Connections are only called linked when prior H3 output actually served as a later reference.\n\nThe exact per-shot JSON files preserve reproducibility. This index exposes the production logic and meaningful parameter changes without manufacturing a fake one-click pipeline."
+      ],
+      "widgets_values_named": {
+        "text": "## Why the exact workflows stay separate\n\nThese clips were generated as purpose-specific H3 passes, sometimes feeding prior output into the next pass.\n\nCopying thirteen entire graphs onto one canvas would make a huge document, but it would not make unrelated shots technically \u201clinked.\u201d Connections are only called linked when prior H3 output actually served as a later reference.\n\nThe exact per-shot JSON files preserve reproducibility. This index exposes the production logic and meaningful parameter changes without manufacturing a fake one-click pipeline."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 9,
+      "type": "MarkdownNote",
+      "pos": [
+        1960,
+        660
+      ],
+      "size": [
+        900,
+        600
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "AUDIO PROVENANCE",
+      "properties": {},
+      "widgets_values": [
+        "## Audio provenance\n\nThe selected workflows decode video and audio from the same H3 latent.\n\n`firstskyinprogress.wav` is used as a **reference input** for the Quorum voice.\n\nSeveral S05-S10 workflows also wire prior H3-generated audio into the next H3 reference stack for environmental/vocal continuity.\n\nS11 generates impact telemetry and overload natively.\n\nS12 uses its prior impact clip visually only; its prior audio output is not connected.\n\nS13 uses its prior clip visually only and separately connects the Quorum voice reference.\n\nThe final Resolve/Audacity pass used trims, clip-gain automation, short audio crossfades/fades, cleanup/EQ where needed, conservative dynamics processing and a safety limiter. No separately produced replacement soundtrack was added.\n\nThe final pre-vision recognition/Quorum exchange was lifted about 2.5 dB after QC so the intentional whisper remained intelligible on ordinary playback."
+      ],
+      "widgets_values_named": {
+        "text": "## Audio provenance\n\nThe selected workflows decode video and audio from the same H3 latent.\n\n`firstskyinprogress.wav` is used as a **reference input** for the Quorum voice.\n\nSeveral S05-S10 workflows also wire prior H3-generated audio into the next H3 reference stack for environmental/vocal continuity.\n\nS11 generates impact telemetry and overload natively.\n\nS12 uses its prior impact clip visually only; its prior audio output is not connected.\n\nS13 uses its prior clip visually only and separately connects the Quorum voice reference.\n\nThe final Resolve/Audacity pass used trims, clip-gain automation, short audio crossfades/fades, cleanup/EQ where needed, conservative dynamics processing and a safety limiter. No separately produced replacement soundtrack was added.\n\nThe final pre-vision recognition/Quorum exchange was lifted about 2.5 dB after QC so the intentional whisper remained intelligible on ordinary playback."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 10,
+      "type": "MarkdownNote",
+      "pos": [
+        2940,
+        660
+      ],
+      "size": [
+        1040,
+        600
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "ITERATION SUMMARY",
+      "properties": {},
+      "widgets_values": [
+        "## What repeatedly changed\n\n- extra / missing moons\n- impossible Orrery ring geometry\n- wrong entry position and character blocking\n- loss of screen direction\n- planet geography drift\n- impact location drift\n- generic explosion behavior\n- symmetrical shockwaves\n- overcomplicated choral sound\n- verbose prompts causing extra objects and weaker camera control\n\nThe production response was not one magic setting. It was stronger reference hierarchy, dedicated position/mechanism refs, prior-video continuity, prior-audio continuity where useful, shorter technical prompts, lower-res composition tests, and shot-specific Turbo/full-step choices."
+      ],
+      "widgets_values_named": {
+        "text": "## What repeatedly changed\n\n- extra / missing moons\n- impossible Orrery ring geometry\n- wrong entry position and character blocking\n- loss of screen direction\n- planet geography drift\n- impact location drift\n- generic explosion behavior\n- symmetrical shockwaves\n- overcomplicated choral sound\n- verbose prompts causing extra objects and weaker camera control\n\nThe production response was not one magic setting. It was stronger reference hierarchy, dedicated position/mechanism refs, prior-video continuity, prior-audio continuity where useful, shorter technical prompts, lower-res composition tests, and shot-specific Turbo/full-step choices."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    }
+  ],
+  "links": [],
+  "groups": [
+    {
+      "id": 1,
+      "title": "PROJECT + SHOT PROGRESSION",
+      "bounding": [
+        -40,
+        -40,
+        4060,
+        680
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "PRODUCTION NOTES",
+      "bounding": [
+        -40,
+        620,
+        4060,
+        700
+      ],
+      "color": "#7b5a9e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.7,
+      "offset": [
+        100,
+        100
+      ]
+    },
+    "frontendVersion": "1.49.6"
+  },
+  "version": 0.4
+}
