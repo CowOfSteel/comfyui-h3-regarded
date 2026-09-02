@@ -44,10 +44,6 @@ The final edit keeps that H3 audio and only applies normal finishing work: trims
 
 The RKV sequence is intentionally much louder than the surrounding scene. The final mix was aimed at keeping that rupture violent without clipping or burying the quieter Quorum material.
 
-I've not really played around with sound editing/mixing much, so I genuinely hope I'm not gonna accidentally hurt someone's ears.
-
-## Repository map
-
 ## Repository map
 
 - [`workflows/selected_shots/`](workflows/selected_shots/) — exact S01-S13 ComfyUI workflows
