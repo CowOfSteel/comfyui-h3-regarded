@@ -48,11 +48,16 @@ I've not really played around with sound editing/mixing much, so I genuinely hop
 
 ## Repository map
 
-- `workflows/selected_shots/` — exact S01-S13 ComfyUI workflows
-- `workflows/H3_RIOT_WORKFLOW_INDEX.json` — annotated judge-facing production index
-- `documentation/SHOT_MANIFEST.md` — shot-by-shot settings and reference strategy
-- `documentation/PRODUCTION_NOTES.md` — creative rationale, iteration lessons, audio provenance and final edit notes
-- `documentation/DEPENDENCIES.md` — models, nodes and environment
+## Repository map
+
+- [`workflows/selected_shots/`](workflows/selected_shots/) — exact S01-S13 ComfyUI workflows
+- [`workflows/H3_RIOT_WORKFLOW_INDEX.json`](workflows/H3_RIOT_WORKFLOW_INDEX.json) — annotated judge-facing production index
+- [`clip_sequence/`](clip_sequence/) — the 13 selected H3 source outputs used to assemble the final sequence
+- [`ref_prev_clips/`](ref_prev_clips/) — extracted/generated prior-shot references used for linked continuity passes
+- [`references/`](references/) — character, environment, planet and audio reference assets
+- [`documentation/SHOT_MANIFEST.md`](documentation/SHOT_MANIFEST.md) — shot-by-shot settings and reference strategy
+- [`documentation/PRODUCTION_NOTES.md`](PRODUCTION_NOTES.md) — creative rationale, iteration lessons, audio provenance and final-edit notes
+- [`dpcumentation/DEPENDENCIES.md`](DEPENDENCIES.md) — models, nodes and environment
 
 Several workflows load earlier generated clips or reference assets by filename. Those files are not model weights and are not embedded in the JSON, so they must be relinked if reproducing the sequence outside the original project folder.
 
